@@ -1,12 +1,34 @@
-# React + Vite
+# 🗂️ Task Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A feature-rich **Task Management System** built using **React.js**, offering global **Dark/Light Theme** and **English/Hindi Language** switching with Context API. Users can navigate between Dashboard, Tasks, Teams, and Settings while experiencing a personalized interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🌗 Dark / Light mode toggle
+- 🌐 Language switch (English / Hindi)
+- 🧩 Modular pages: Dashboard, Tasks, Teams, Settings
+- 🧑‍🤝‍🧑 Team members list with dynamic routing
+- ✅ Task board categorized by status (To-Do, In Progress, Done)
+- ⚙️ Preferences and security settings (e.g., notifications, 2FA)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ Screenshots
+
+### 📋 Task Page
+
+![📋 Task Dashboard](/public/task.png)
+
+### 📋 Dashboard Page
+
+![📋 Task Dashboard](/public/dashboard.png)
+
+### 👥 Team Page
+
+![👥 Team Page](/public/team.png)
+
+### ⚙️ Settings Page
+
+![⚙️ Settings Page](/public/setting.png)

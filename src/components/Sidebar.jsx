@@ -18,12 +18,13 @@ const Sidebar = () => {
         isDark ? "bg-zinc-900 text-white" : "bg-gray-100 text-black"
       } h-screen p-4`}
     >
-      <div
-        className={`h-12 w-12 rounded-lg ${
-          isDark ? "bg-white" : "bg-zinc-800"
-        } mb-6`}
-      />
-
+      <div className="w-full mb-6">
+        <img
+          src="../../public/logo.png"
+          alt="Logo"
+          className="w-20 h-20"
+        />
+      </div>
       <nav className="space-y-4">
         {links.map((item) => (
           <NavLink

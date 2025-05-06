@@ -60,11 +60,7 @@ const TasksPage = () => {
     <div className={`flex-1 p-6 ${isDark ? "text-white" : "text-black"}`}>
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-xl font-bold">{t.taskHeader}</h1>
-        <button
-          className={`px-4 py-2 rounded ${
-            isDark ? "bg-zinc-800 text-white" : "bg-gray-200 text-black"
-          }`}
-        >
+        <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded cursor-pointer">
           {t.login}
         </button>
       </div>
